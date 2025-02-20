@@ -1,7 +1,7 @@
 # Year-11-CS-Unit-6-Classes-Tutorial-ZombiePlant
 
 Your job is to create one class called ZombiePlant. 
-You should pass all of the tests in the ZombiePlantTester class (provided).
+You should pass all the tests in the ZombiePlantTester class (provided).
 
 This question involves the implementation of a zombie plant treatment system that is represented by the ZombiePlant class. A ZombiePlant object is created with parameters that specify the maximum potency for a successful treatment and the initial number of successful treatments required to cure the plant.
 The ZombiePlant class provides a constructor and the following methods.
