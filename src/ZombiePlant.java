@@ -20,13 +20,16 @@ public class ZombiePlant {
     }
 
     public void treat(int n){
-        if (n==0){
+        if (treatmentsNeeded < 0){
             return;
         }
-        else if (n < maxPotency && treatmentsNeeded > 0){
+        else if (n==0){
+            return;
+        }
+        else if (n <= maxPotency && treatmentsNeeded > 0 && n > 0){
             treatmentsNeeded--;
         }
-        else if (n > maxPotency && treatmentsNeeded >= 0){
+        else if (n > maxPotency && treatmentsNeeded >= 0 && n > 0){
             treatmentsNeeded++;
         }
     }
